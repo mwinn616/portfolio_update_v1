@@ -11,6 +11,35 @@ body {
   color: #222;
   background: #f0f4f7;
 }
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+flex: 25%;
+max-width: 25%;
+padding: 0 4px;
+}
+
+/* Responsive layout - makes a two column layout instead of three columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsiven layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex:100%;
+    max-width: 100%;
+  }
+}
 /* Link Styles */
 
 a {
@@ -67,7 +96,11 @@ a:hover {
   background: url('images/fayetteville.jpg') no-repeat top center ;
 }
 
-.main-header, .experience-header, .contact-header{
+.hobbies-header {
+  background: url(images/fayetteville.jpg) no-repeat top center ;
+}
+
+.main-header, .experience-header, .hobbies-header, .contact-header{
   text-align: center;
   background-size: cover;
   overflow: hidden;
