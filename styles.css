@@ -11,25 +11,54 @@ body {
   color: #222;
   background: #f0f4f7;
 }
-
-.container {
-  display:flex;
-  flex-wrap:wrap;
-  align-items: flex-start;
+.masonry {
+  display: flex;
+  flex-flow: row wrap;
+  margin-left: -8px;
+  width: 100%;
+}
+.cell--1{
+  border: 3px solid black;
+}
+.cell--2{
+  border: 3px solid black;
+}
+.cell--3{
+  border: 3px solid black;
+}
+.cell--4{
+  border: 3px solid black;
+}
+.cell--5{
+  border: 3px solid black;
+}
+.cell--6{
+  border: 3px solid black;
+}
+.cell--7{
+  border: 3px solid black;
+}
+.cell--8{
+  border: 3px solid black;
+}
+.cell--9{
+  border: 3px solid black;
+}
+.cell--10{
+  border: 3px solid black;
+}
+.cell--11{
+  border: 3px solid black;
+}
+.cell--12{
+  border: 3px solid black;
 }
 
-
-.item {
-  background: #ddd;
-  height: 350px;
-  width: 300px;
-  margin: 5px;
-}
-
-.tall {
-  height:400px;
-  width:350px;
-  margin: 5px;
+.masonry-brick {
+  flex: auto;
+  height: 250px;
+  min-width; 150px;
+  margin: 0 8pz 8pz 0;
 }
 /* Link Styles */
 
