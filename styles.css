@@ -19,47 +19,54 @@ body {
 }
 .cell--1{
   border: 3px solid black;
+  max-height: 276px;
 }
 .cell--2{
   border: 3px solid black;
+  max-height: 393px;
 }
 .cell--3{
   border: 3px solid black;
+  max-height: 259px;
 }
 .cell--4{
   border: 3px solid black;
+  max-height: 406px;
 }
 .cell--5{
   border: 3px solid black;
+  max-height: 273px;
 }
 .cell--6{
   border: 3px solid black;
+  max-height: 406px;
 }
 .cell--7{
   border: 3px solid black;
+  max-height: 306px;
 }
 .cell--8{
   border: 3px solid black;
+  max-height: 628px;
 }
 .cell--9{
   border: 3px solid black;
+  max-height: 381px;
 }
 .cell--10{
   border: 3px solid black;
+  max-height: 473px;
 }
 .cell--11{
   border: 3px solid black;
+  max-height: 366px;
 }
 .cell--12{
   border: 3px solid black;
+  max-height: 506px;
 }
 
-.masonry-brick {
-  flex: auto;
-  height: 250px;
-  min-width; 150px;
-  margin: 0 8pz 8pz 0;
-}
+
 /* Link Styles */
 
 a {
