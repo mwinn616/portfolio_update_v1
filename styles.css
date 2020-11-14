@@ -65,7 +65,10 @@ body {
   border: 3px solid black;
   max-height: 506px;
 }
-
+.cell--13{
+  border: 3px solid black;
+  max-height: 505px;
+}
 
 /* Link Styles */
 
@@ -168,6 +171,7 @@ a:hover {
   border-radius: 6px;
   transition: all .5s;
 }
+
 .card:hover, .contact-card:hover {
   border-color: #ff99ff;
 }
